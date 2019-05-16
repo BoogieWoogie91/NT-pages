@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Oracle</title>
+  </head>
+
+  <header>
+    <div class='row navigationRow'>
+      <div class='col-8 col-sm-8 col-md-7 col-lg-3 col-xl-2 noPadding'>
+        <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/index.html'" class='logoBox'>
+          <img src='img/NT LOGO-small.png'>
+        </button>
+
+        <div class="btn-group"><!---------------------------------------------------------------------DropDown-->
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oracle</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item dropOne" href="file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/devops.html">DevOps</a>
+            <a class="dropdown-item dropTwo" href="file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html">IT</a>
+          </div>
+        </div><!-----------------------------------------------------------------------------------DropDown Ending-->
+      </div>
+
+      <nav class="navbar col-4 col-sm-4 col-md-5 col-lg-9 col-xl-7 navbarColumn"><!--------------------------------------------------------Navbar-->
+        <ul class='navbarList'>
+          <li class="nav-item active">
+            <a class="nav-link" href="#aboutProduct_oracle">О продукте</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#whatFor_oracle">Для чего?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#advantages_oracle">Преимущества</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ourServices_oracle">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#whyUs_oracle">Почему мы?</a>
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-primary modalButton" data-toggle="modal" data-target=".bd-example-modal-sm"><img src='img/hamburger-menu.png'></button>
+
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'" class='closeModal'><i class="fas fa-times"></i></button>
+              <ul class='modalNavbar'>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#aboutProduct_oracle"><p>О продукте</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#whatFor_oracle"><p>Для чего?</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#advantages_oracle"><p>Преимущества</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#ourServices_oracle"><p>Услуги</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#whyUs_oracle"><p>Почему мы?</p></a>
+                </li>
+              </ul>
+              <div class='modalConsultButton'>
+                <button type="button" class="btn btn-primary consultModalButton" data-toggle="modal" data-target=".modalConsultForm">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                <div class="modal fade bd-example-modal-sm modalConsultForm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog consultDialog modal-sm">
+                    <div class="modal-content consultContent">
+                      <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                      <h3>Получить консультацию</h3>
+                      <div class='urName form'>
+                        <p>Ваше Имя</p>
+                        <input type="text">
+                      </div>
+                      <div class='urPhone form'>
+                        <p>Ваш Телефон</p>
+                        <input type="text">
+                      </div>
+                      <div class='urEmail form'>
+                        <p>Ваш E-mail</p>
+                        <input type="text">
+                      </div>
+                      <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </nav><!------------------------------------------------------------------------------Navbar Ending-->
+
+      <div class='col-0 col-sm-0 col-md-0 col-lg-0 col-xl-1 offset-xl-2 consultButtonColumn'>
+        <div class='consultButton'>
+          <button type="button" class="btn btn-primary consultModalButton" data-toggle="modal" data-target=".consultForm">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+          <div class="modal fade bd-example-modal-sm consultForm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog consultDialog modal-sm">
+              <div class="modal-content consultContent">
+                <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                <h3>Получить консультацию</h3>
+                <div class='urName form'>
+                  <p>Ваше Имя</p>
+                  <input type="text">
+                </div>
+                <div class='urPhone form'>
+                  <p>Ваш Телефон</p>
+                  <input type="text">
+                </div>
+                <div class='urEmail form'>
+                  <p>Ваш E-mail</p>
+                  <input type="text">
+                </div>
+                <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <body class='oracleBody'>
+    <div class='aboutProduct_oracle' id='aboutProduct_oracle'>
+        <div class='row aboutProduct_oracleRow'>
+          <div class='aboutProduct_oracle_1 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 offset-xl-2 order-lg-2 order-xl-1 order-md-2 order-sm-2'>
+            <div class='contentDiv_oracle'>
+            <h1>О продукте</h1>
+            <p>Oracle — система управления базами данных (СУБД) уровня Enterprise,<br> которая лидирует среди интеграций програмного обеспечения на рынке<br> Казахстана. Все Казахстанские финансовые институты используют СУБД<br> Oracle, что подтверждает универсальность и масштабируемость этой<br> системы баз данных.</p>
+            <button class='knowMore_oracle'>Узнать подробнее <span><i class="fas fa-arrow-right"></i><span></button>
+            <button type="button" class="btn btn-primary getConsult_oracle" data-toggle="modal" data-target=".consultForm">Получить Консультацию</button>
+            <div class="modal fade bd-example-modal-sm consultForm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog consultDialog modal-sm">
+              <div class="modal-content consultContent">
+                <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                <h3>Получить консультацию</h3>
+                <div class='urName form'>
+                  <p>Ваше Имя</p>
+                  <input type="text">
+                </div>
+                <div class='urPhone form'>
+                  <p>Ваш Телефон</p>
+                  <input type="text">
+                </div>
+                <div class='urEmail form'>
+                  <p>Ваш E-mail</p>
+                  <input type="text">
+                </div>
+                <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-primary getConsultForSmall_oracle" data-toggle="modal" data-target=".consultFormForSmall">Получить Консультацию</button>
+          <div class="modal fade bd-example-modal-sm consultFormForSmall" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog consultDialog consultDialog modal-sm">
+              <div class="modal-content consultContentForSmall">
+                <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                <h3>Получить консультацию</h3>
+                <div class='urName form'>
+                  <p>Ваше Имя</p>
+                  <input type="text">
+                </div>
+                <div class='urPhone form'>
+                  <p>Ваш Телефон</p>
+                  <input type="text">
+                </div>
+                <div class='urEmail form'>
+                  <p>Ваш E-mail</p>
+                  <input type="text">
+                </div>
+                <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class='aboutProduct_oracle_2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 order-lg-1 order-xl-2 order-md-1 order-sm-1'>
+            <img src='img/content-image-22 copy.png'>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='whatFor_oracle' id='whatFor_oracle'>
+      <div class='content'>
+        <div class='row justify-content-between'>
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 whatFor_oracle_column'>
+            <h1>Для чего?</h1>
+            <p><span class='bold'>Чтобы снизить время простоя баз данных и<br> защитить информацию — вам нужна техническая<br> поддержка СУБД Oracle.</span>
+            <br><br>Когда у вашей компании есть цель улучшить<br> качество поддержки процесса использования<br> данных и увеличить производительность работы<br> приложений, а также сократить расходы на<br> обслуживание системы управления базами<br> данных — вам просто необходимы наши услуги.</p>
+            <div class='buttons'>
+                <button class='rdyOrNot_oracle'>Готовы начать работу?</button>
+                <button class='advantagesButton_oracle'>Преимущества</button>
+              </div>
+          </div>
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4'>
+            <div class='imgWrapper'>
+              <img src='img/Rectangle (7).png'>
+            </div>
+          </div>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4'>
+            <div class='whoNeedsThis_oracle'>
+              <div class='redLine_oracle'></div>
+              <p>Кому нужна техподдержка Oracle?</p>
+            </div>
+              <div class=theyNeedThis_1_oracle>
+                <div class='redCircle'>
+                  <img src='img/Group (3).png'>
+                </div>
+                <p>Крупным компаниям и<br> финансовым институтам, у<br> которых используется СУБД Oracle </p>
+              </div>
+              <div class=theyNeedThis_2_oracle>
+                <div class='redCircle_2'>
+                  <img src='img/Fill 1256 + Fill 1257 + Fill 1258.png'>
+              </div>
+                <p>Владельцам малого<br> бизнеса, которые получат<br> профессиональную услугу<br> администрирования СУБД Oracle<br> по цене штатного администратора</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='advantages_oracle' id='advantages_oracle'>
+      <h1>Преимущества работы с нами</h1>
+      <p>Команда NT corp больше десяти лет работает с системой Oracle</p>
+      <div class='redLine'></div>
+      <div class='content'>
+        <div class='row advantages_oracleRow justify-content-between'>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 advantages_oracle_column advantages_oracle_column_1'>
+            <div class=redCircleNoTrans>
+              <img src='img/Fill 3262 + Fill 3263 (2).png'>
+            </div>
+            <p>Сертифицированные специалисты<br> с опытом работы с системой Oracle более<br> десяти лет</p>
+          </div>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 advantages_oracle_column advantages_oracle_column_2'>
+            <div class=redCircleNoTrans>
+              <img src='img/Group (4).png'>
+            </div>
+            <p>Большой опыт работы с банками второго уровня<br> при условиях доступности системы управления<br> баз данных в режиме 24/7</p>
+          </div>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 advantages_oracle_column advantages_oracle_column_3'>
+            <div class=redCircleNoTrans>
+              <img src='img/Fill 767.png'>
+            </div>
+            <p>Системный подход и правильное<br> проектирование СУБД Oracle</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='ourServices_oracle' id='ourServices_oracle'>
+      
+        <div class='row ourServices_oracleRow'>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  ourServices_oracleLeft'>
+            <img src='img/image-11 copy.png'>
+          </div>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-0  ourServices_oracleRight'>
+            <h1>Наши услуги</h1>
+            <ul class='ourServicesList_oracle'>
+              <li><p>Aудит СУБД Oracle и OS сервера СУБД с предоставлением заказчику детального отчета</p></li>
+              <li><p>Весь спектр управления базами данных: создание, настройка, изменение, удаление, модификация и т.д</p></li>
+              <li><p>Обслуживание баз данных, базирующихся на решениях высокой доступности и отказоустойчивости: кластеризация, зеркалирование, репликация и т.д</p></li>
+              <li><p>Оперативное решение вопросов, связанных с работой баз данных</p></li>
+              <li><p>Мониторинг основных показателей баз данных: доступность, исправность, объем и свободное пространство</p></li>
+              <li><p>Управление доступом к базам данных и обеспечение их безопасности</p></li>
+              <li><p>Резервное копирование и восстановление баз данных</p></li>
+              <li><p>Разработка предложений по улучшению производительности баз данных</p></li>
+              <li><p>Мониторинг событий, возникающих в процессе работы баз данных</p></li>
+              <li><p>Кроме СУБД Oracle у нас есть опыт администрирования таких СУБД как: PostgreSQL, OpenEdge (Progress), MySQL</p></li>
+            </ul>
+          </div>
+        </div>        
+      
+    </div>
+
+    <div class='whyUs_oracle' id='whyUs_oracle'>
+      <div class='row whyUs_oracleRow'>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1 whyUs_oracleColumn_1'>
+          <h1>Почему нужно выбрать нас?</h1>
+          <div class='whyUs_1_oracle'>
+            <div class='redCircleNoMargin_1'>
+              <img src='img/Fill 3262 + Fill 3263.png'>
+            </div>
+            <p>Профессиональные услуги команды специалистов по цене одного штатного сотрудника</p>
+          </div>
+          <div class='whyUs_2_oracle'>
+            <div class='redCircleNoMargin_2'>
+              <img src='img/Group (5).png'>
+            </div>
+            <p>Системный подход, который позволяет выполнить задачи вашей компании с первого<br> раза без необходимости тратить дополнительные ресурсы</p>
+          </div>
+          <div class='whyUs_3_oracle'>
+            <div class='redCircleNoMargin_3'>
+              <img src='img/Fill 2559 + Fill 2560.png'>
+            </div>
+            <p>Оперативное решение внештатных ситуаций и постоянная поддержка ваших баз данных</p>
+          </div>    
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 whyUs_oracleColumn_2'>
+          <div class='imgWrapper_1'>
+            <img src='img/Rectangle 2.png'>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+    <div class='logoWrap'>
+      <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/index.html'">
+        <img src='img/NT LOGO-Final2 (1).png'>
+      <button>
+    </div>
+    <ul class='footerList'>
+      <li><a href='file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/devops.html'>DevOps</a></li>
+      <li><a href='file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'>Oracle</a></li>
+      <li><a href='file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'>IT-инфраструктура</a></li>
+    </ul>
+    <p>2018 © Copyright. Все права защищены.</p>
+  </footer>
+
+</html>

@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>IT-Инфраструктура</title>
+  </head>
+
+  <header>
+    <div class='row navigationRow'>
+      <div class='col-8 col-sm-8 col-md-7 col-lg-3 col-xl-2 noPadding'>
+        <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/index.html'" class='logoBox'>
+          <img src='img/NT LOGO-small.png'>
+        </button>
+
+        <div class="btn-group"><!---------------------------------------------------------------------DropDown-->
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IT</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item dropOne" href="file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/devops.html">DevOps</a>
+            <a class="dropdown-item dropTwo" href="file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html">Oracle</a>
+          </div>
+        </div><!-----------------------------------------------------------------------------------DropDown Ending-->
+      </div>
+
+      <nav class="navbar col-4 col-sm-4 col-md-5 col-lg-9 col-xl-7 navbarColumn"><!--------------------------------------------------------Navbar-->
+        <ul class='navbarList'>
+          <li class="nav-item active">
+            <a class="nav-link" href="#aboutProduct_it">О продукте</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#whatFor_it">Для чего?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#advantages_it">Преимущества</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ourServices_it">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#whyUs_it">Почему мы?</a>
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-primary modalButton" data-toggle="modal" data-target=".bd-example-modal-sm"><img src='img/hamburger-menu.png'></button>
+
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'" class='closeModal'><i class="fas fa-times"></i></button>
+              <ul class='modalNavbar'>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#aboutProduct_it"><p>О продукте</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#whatFor_it"><p>Для чего?</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#advantages_it"><p>Преимущества</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#ourServices_it"><p>Услуги</p></a>
+                </li>
+                <li class="modalNav-item">
+                  <a class="nav-link" href="#whyUs_it"><p>Почему мы?</p></a>
+                </li>
+              </ul>
+              <div class='modalConsultButton'>
+                <button type="button" class="btn btn-primary consultModalButton" data-toggle="modal" data-target=".modalConsultForm">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                <div class="modal fade bd-example-modal-sm modalConsultForm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog consultDialog modal-sm">
+                    <div class="modal-content consultContent">
+                      <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                      <h3>Получить консультацию</h3>
+                      <div class='urName form'>
+                        <p>Ваше Имя</p>
+                        <input type="text">
+                      </div>
+                      <div class='urPhone form'>
+                        <p>Ваш Телефон</p>
+                        <input type="text">
+                      </div>
+                      <div class='urEmail form'>
+                        <p>Ваш E-mail</p>
+                        <input type="text">
+                      </div>
+                      <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </nav><!------------------------------------------------------------------------------Navbar Ending-->
+
+      <div class='col-0 col-sm-0 col-md-0 col-lg-0 col-xl-1 offset-xl-1 consultButtonColumn'>
+        <div class='consultButton'>
+          <button type="button" class="btn btn-primary consultModalButton" data-toggle="modal" data-target=".consultForm">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+          <div class="modal fade bd-example-modal-sm consultForm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog consultDialog modal-sm">
+              <div class="modal-content consultContent">
+                <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                <h3>Получить консультацию</h3>
+                <div class='urName form'>
+                  <p>Ваше Имя</p>
+                  <input type="text">
+                </div>
+                <div class='urPhone form'>
+                  <p>Ваш Телефон</p>
+                  <input type="text">
+                </div>
+                <div class='urEmail form'>
+                  <p>Ваш E-mail</p>
+                  <input type="text">
+                </div>
+                <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <body>
+    <div class='firstBlock_it'>
+      <h1>IT-инфраструктура</h1>
+      <p>Инфраструктура информационных технологий — набор программных, телекоммуникационных,<br> информационных и вычислительных средств, которые необходимы для осуществления<br> профессиональной деятельности и решения бизнес-задач вашей компании.</p>
+    <div class='flexWrap'>
+      <button class='knowMore_it'>Узнать подробнее <span><i class="fas fa-arrow-right"></i><span></button>
+      <button type="button" class="btn btn-primary getConsult_it" data-toggle="modal" data-target=".consultForm">Получить Консультацию</button>
+        <div class="modal fade bd-example-modal-sm consultForm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog consultDialog modal-sm">
+            <div class="modal-content consultContent">
+              <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+              <h3>Получить консультацию</h3>
+                <div class='urName form'>
+                  <p>Ваше Имя</p>
+                  <input type="text">
+                </div>
+                <div class='urPhone form'>
+                  <p>Ваш Телефон</p>
+                  <input type="text">
+                </div>
+                <div class='urEmail form'>
+                  <p>Ваш E-mail</p>
+                  <input type="text">
+                </div>
+                <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-primary getConsultForSmall_it" data-toggle="modal" data-target=".consultFormForSmall">Получить Консультацию</button>
+          <div class="modal fade bd-example-modal-sm consultFormForSmall" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog consultDialog consultDialog modal-sm">
+              <div class="modal-content consultContentForSmall">
+                <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'" class='consultCloseModal' id='consultCloseModal'><i class="fas fa-times"></i></button>
+                <h3>Получить консультацию</h3>
+                <div class='urName form'>
+                  <p>Ваше Имя</p>
+                  <input type="text">
+                </div>
+                <div class='urPhone form'>
+                  <p>Ваш Телефон</p>
+                  <input type="text">
+                </div>
+                <div class='urEmail form'>
+                  <p>Ваш E-mail</p>
+                  <input type="text">
+                </div>
+                <button class='formSubmit' id='formSubmit'><p>ОТПРАВИТЬ</p></button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class='whatFor_it' id='whatFor_it'>
+      <div class='content'>
+        <div class='row whatFor_itRow'>
+          <div class='col-11 offset-0 col-sm-11 offset-sm-0 col-md-9 offset-md-2 col-lg-8 offset-lg-3 col-xl-6 offset-xl-0 whatFor_it_1'>
+            <div class='whiteLineWrapper'>
+              <div class='whiteLine'>
+            </div>
+          </div>
+        </div>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 whatFor_it_2'>
+            <h1>Для чего?</h1>
+            <p><span class='bold'>Если в вашей компании есть персональный компьютер или ноутбук с<br> программным обеспечением и выходом в интернет — вы обладатель<br> полноценной ИТ-инфраструктуры.</span><br><br>Инфраструктура информационных технологий позволяет вашим сотрудникам<br> ежедневно использовать электронную почту, CRM, онлайн-транзакции,<br> биллинг, банковские переводы и многое другое.</p>
+            <div class='whoNeedsThis_it'>
+              <div class='greenLine'></div>
+            <p>Кому нужна ИТ-инфраструктура?</p>
+          </div>
+            <div class=theyNeedThis_1_it>
+              <div class='greenSquare'>
+                <img src='img/Fill 1556 + Fill 1557 + Fill 1558.png'>
+              </div>
+              <p>Небольшим компаниям с минимальным набором сервисов</p>
+              </div>
+              <div class=theyNeedThis_2_it>
+                <div class='greenSquare_2'>
+                  <img src='img/Fill 1134.png'>
+                </div>
+                <p>Крупным корпорациям с широкой филиальной сетью</p>
+              </div>
+              <div class='buttons'>
+                <button class='rdyOrNot_it'>Готовы начать работу?</button>
+                <button class='advantagesButton_it'>Преимущества</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='advantages_it' id='advantages_it'>
+      <div class='content'>
+      <h1>Преимущества работы с нами</h1>
+      <p>Наша компания предоставит любую специализированную поддержку и развитие IT-инфраструктуры</p>
+      <div class='greenLine'></div>
+      <div class='row advantages_itRow justify-content-between'>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 advantages_it_column advantages_it_column_1'>
+          <div class='greenCircle_1'>
+            <img src='img/Fill 1405.png'>
+          </div>
+          <h5>Бесперебойная работа</h5>
+          <p>Мы используем систему проактивного<br> мониторинга, которая сообщает о<br> проблемах работы IT-инфраструктуры<br> раньше, чем они могут повлиять на<br> работу бизнес-процесса</p>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 advantages_it_column advantages_it_column_2'>
+          <div class='greenCircle'>
+            <img src='img/Group (6).png'>
+          </div>
+          <h5>Масштабируемость</h5>
+          <p>Отслеживаем «узкие места» в вашей<br> инфраструктуре, что позволяет<br> минимизировать риски при расширении<br> бизнеса и исключить перестройку всей<br> IT-инфраструктуры компании.</p>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 advantages_it_column advantages_it_column_3'>
+          <div class='greenCircle_3'>
+            <img src='img/Fill 1439 + Fill 1440.png'>
+          </div>
+          <h5>Безопасность</h5>
+          <p>Мы уделяем особое внимание<br> построению систем защиты — это<br> управление правами доступа,<br> шифрование каналов связи, тотальный<br> мониторинг, ведение подробных<br> журналов.</p>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 advantages_it_column advantages_it_column_4'>
+          <div class='greenCircle'>
+            <img src='img/Group (7).png'>
+          </div>
+          <h5>Скорость изменений</h5>
+          <p>В зависимости от поставленной задачи,<br> мы выделяем нужных под необходимую<br> категорию специалистов — Windows/*nix<br> администрирование, DevOps, СУБД, АТС<br> и т.д. Это помогает быстро реагировать<br> на изменения в вашей инфраструктуре.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='ourServices_it' id='ourServices_it'>
+    <div class='content'>
+      <h1>Наши услуги</h1>
+      <div class='row justify-content-between'>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+          <ul class='ourServicesList_it'>
+              <li><p>Подготовка серверного помещения (ЦОДа) по всем требованиям безопасности системы пожаротушения, контроля доступа, контроля температуры и влажности, бесперебойного электрообеспечения</p></li>
+              <li><p>Подготовка виртуального ЦОДа на арендуемых мощностях для сокращения затрат на физическое обслуживание серверного помещения</p></li>
+              <li><p>Настройка и установка межсетевых экранов, активного сетевого оборудования (Ethernet, WIFI), построение WLAN, организация защищенных VPN-сетей между филиалами компании</p></li>
+              <li><p>Установка, настройка и программирование автоматической телефонной станции на базе корпоративного оборудования Avaya/Cisco или бесплатных систем на платформе FreePBX (Asterisk)</p></li>
+          </ul>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+          <ul class='ourServicesList_it'>
+              <li><p>Установка и настройка серверного оборудования</p></li>
+              <li><p>Внедрение сетевых служб DHCP, DNS, WINS, NTP и т.д</p></li>
+              <li><p>Установка NAS-систем и объектных СХД: Windows-сервер, бесплатные сервера FreeNAS и FreeBSD или специализированные решения NetApp, Qnap, Isilon и т.д.</p></li>
+              <li><p>Установка систем резервного копирования</p></li>
+              <li><p>Установка серверов антивирусной защиты</p></li>
+              <li><p>Поддержка и сопровождение ИТ-сервисов и проектов</p></li>
+            </ul>
+        </div>
+      </div>
+      <p>Выше перечислены самые распространенные ИТ-сервисы, которые может настроить и оказывать дальнейшую их поддержку наша компания. Мы можем предложить вам другие услуги, если вам необходима более узкопрофильная поддержка вашей ИТ-инфраструктуры.</p>
+    </div>
+  </div>
+
+  <div class='whyUs_it' id='whyUs_it'>
+    <div class='content'>
+      <h1>Почему нужно выбрать нас?</h1>
+      <div class='row justify-content-between'>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 whyUs_itColumn whyUs_1_it'>
+          <div class='greenCircleTransparent'>
+            <img src='img/Fill 1703.png'>
+          </div>
+          <p>Мы подбираем индивидуальное и оптимальное аппаратное и программное обеспечение в зависимости от ваших целей.</p>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 whyUs_itColumn whyUs_2_it'>
+          <div class='greenCircleTransparent'>
+            <img src='img/Fill 1453 + Fill 1454 (2).png'>
+          </div>
+          <p>Наши знания и опыт помогут оказать вашей компании любую специализированную поддержку и решить задачи различной сложности.</p>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 whyUs_itColumn whyUs_3_it'>
+          <div class='greenCircleTransparent'>
+            <img src='img/Fill 751 + Fill 752.png'>
+          </div>
+          <p>Наши услуги позволяют снизить ваши затраты, потому что мы используем не только платные продукты, но и Opensource- системы, которые минимизируют ваши расходы.</p>
+        </div>
+        <div class='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 whyUs_itColumn whyUs_4_it'>
+          <div class='greenCircleTransparent'>
+            <img src='img/Fill 1072.png'>
+          </div>
+          <p>Наша команда специализируются в различных областях ИТ-сферы: база данных, сетевое оборудование, телефония, серверное оборудование, NAS-системы, Linux-администраторы и т.д.</p>
+        </div>
+      </div>
+      <div class='buttonWrap'>
+        <button class='rdyOrNot_it'>Готовы начать работу?</button>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+    <div class='logoWrap'>
+      <button onclick="location.href = 'file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/index.html'">
+        <img src='img/NT LOGO-Final2 (1).png'>
+      <button>
+    </div>
+    <ul class='footerList'>
+      <li><a href='file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/devops.html'>DevOps</a></li>
+      <li><a href='file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/oracle.html'>Oracle</a></li>
+      <li><a href='file:///C:/Users/BoogieWoogie/Desktop/NT%20pages/bootstrap-4.1.3-dist/it.html'>IT-инфраструктура</a></li>
+    </ul>
+    <p>2018 © Copyright. Все права защищены.</p>
+  </footer>
+  
+</html>
